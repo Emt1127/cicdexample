@@ -1,7 +1,7 @@
 #!/bin/bash
 NAME=sk037
 IMAGE_NAME="my-app"
-VERSION="1.0.0"
+VERSION="2.0.0"
 
 # Docker 이미지 빌드
 docker build \
