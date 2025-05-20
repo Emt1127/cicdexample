@@ -27,7 +27,8 @@ public class StockService {
                 new Stock("TechCorp", 100),
                 new Stock("GreenEnergy", 80),
                 new Stock("HealthPlus", 120),
-                new Stock("samsung", 300)
+                new Stock("samsung", 300),
+                new Stock("argo",90)
         );
         stockRepository.saveAll(defaultStocks);
     }
