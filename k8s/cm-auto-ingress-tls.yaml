@@ -13,28 +13,28 @@ spec:
       paths:
       - backend:
           service:
-            name: sk037-stockapp
+            name: sk037-my-app
             port:
               number: 8080
         path: /api
         pathType: Prefix
       - backend:
           service:
-            name: sk037-stockapp
+            name: sk037-my-app
             port:
               number: 8081
         path: /actuator
         pathType: Prefix
       - backend:
           service:
-            name: sk037-stockapp
+            name: sk037-my-app
             port:
               number: 8080
         path: /swagger
         pathType: Prefix
       - backend:
           service:
-            name: sk037-stockapp
+            name: sk037-my-app
             port:
               number: 8080
         path: /
